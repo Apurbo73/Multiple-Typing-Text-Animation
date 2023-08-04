@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <span>Learn <span class="multiText"></span></span>
+    </div>
+  </body>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typingEffect = new Typed(".multiText", {
+      strings: ["coder", "developer"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      startDelay: 1000,
+      backDelay: 1000
+    });
+  </script>
+</html>

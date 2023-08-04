@@ -1,0 +1,23 @@
+.wrapper{
+    position:absolute;
+    width: 100%;
+    left: 38%;
+
+}
+span{
+    color: rgb(226, 215, 215);
+    font-size: 7.5vh;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.multiText{
+    font-weight: 700;
+    color: aqua;
+    text-transform: capitalize;
+}
+body{
+    background-color: rgb(77, 67, 67);
+}
